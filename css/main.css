@@ -1,6 +1,14 @@
 nav{
   background-color: #f3f3f3;
 }
+.banner{
+  max-height:150px;
+  width:100%;
+  /* object-fit: cover; */
+}
+img{
+  object-fit:scale-down;
+}
 
 ul {
   list-style-type: none;

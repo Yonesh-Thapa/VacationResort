@@ -1,4 +1,7 @@
 document.body.innerHTML = `
+<div class="banner">
+<img src="images/banner.jpg" alt="Banner for website">
+</div>
 <nav>
 <ul>
     <li><a class="${current == "home" ? "active" : ""}" href="index.html">Home</a></li>
