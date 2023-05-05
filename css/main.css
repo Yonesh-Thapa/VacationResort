@@ -1,0 +1,82 @@
+nav{
+  background-color: #f3f3f3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  /* question */
+  /* background-color: #333; */
+  /* position:fixed; */
+  top: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position: sticky;
+  left:0;
+  right:0;
+
+  /* background-color: #f1f1f1;
+    /* border: 1px solid #555;
+    width:130px;
+    height:100%;
+    position: fixed;
+    overflow:auto: */
+}
+
+/* The commented style are for a vertical navigation bar.
+/* li a{
+    display:block;
+    color:#000000;
+    padding:8px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: #555;
+    color:white;
+}
+li a.active{
+    background-color: #333741;
+    color:white;
+}
+li{
+    text-align:center;
+    /* border-bottom: 1px solid #555; 
+}
+li:last-child{
+    border-bottom: none;
+} */
+
+/* li{
+    display:inline;
+} */
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  /* background-color:#dddddd; */
+}
+
+li a:hover {
+  background-color: #111;
+  color:white;
+}
+.active {
+  background-color: #04aa6d;
+  color:white;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  color: #666;
+}
