@@ -6,9 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/overnight.css">
 
 </head>
 <body>
+    <h2>Availability</h2>
+    <div>
+        <label>Check In Date<input type="date" id="check_in_date"></label>
+        <label>Number days for Stay<input type="number" id="num_of_days" value="1" placeholder="For how many days" min="1" max="28"></label>
+        <label>Checkout Date<input type="date" id="checkout_date" readonly>
+    </div>
+    <table>
+        <tr>
+            <th>Room Type</th>
+            <th>Occupancy</th>
+            <th>Price</th>
+            <th>Discounts</th>
+            <th>Cost Estimate</th>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type="radio" id="king" name="room_type" checked>King
+                </label><br>
+                <label>
+                    <input type="radio" id="queen" name="room_type">Queen
+                </label><br>
+                <label>
+                    <input type="radio" id="suite" name="room_type">2 Bedroom suite
+                </label>
+            </td>
+            <td>
+                <label>
+                    Adults<input type="number" id="num_of_adults" placeholder="Adults (1 - 4)" min="1" max="4" class="occupancy">
+                </label><br><br>
+                <label>
+                    Childern<input type="number" id="num_of_children" placeholder="Adults (0 - 4)" min="0" max="4" class="occupancy">
+
+                </label>
+            </td>
+            <td>
+                $150.00
+                <p id="in_season" style="display:none;">$250.00</p>
+            </td>
+            <td>
+                <label>
+                    <input id="senior" type="radio">AAA/Senior(10%)
+                </label><br>
+                <label>
+                    <input id="military" type="radio">Military(20%)
+                </label>
+
+            </td>
+            <td>
+                <p id="estimate">$150.00</p>
+            </td>
+        </tr>
+    </table>
     
     
 </body>

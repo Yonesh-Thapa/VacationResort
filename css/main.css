@@ -89,3 +89,6 @@ li:last-child {
 li a {
   color: #666;
 }
+body{
+  margin:0;
+}

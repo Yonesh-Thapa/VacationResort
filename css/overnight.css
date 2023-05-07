@@ -1,0 +1,11 @@
+.occupancy{
+    width: 95px;
+    float:right;
+  }
+  table{
+    margin-top:2rem;
+  }
+  td{
+    padding-right:2rem;
+    
+  }
